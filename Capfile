@@ -43,7 +43,7 @@ require 'capistrano/passenger'
 # set :rbenv_ruby, '2.4.0'
 
 # If you are using rvm add these lines:
-# require 'capistrano/rvm'
+require 'capistrano/rvm'
 set :rvm_type, :user
 set :rvm_ruby_version, '2.3.0'
 
